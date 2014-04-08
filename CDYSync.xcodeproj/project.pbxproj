@@ -48,6 +48,7 @@
 		EAFEA1EF18F3C32000B7B790 /* CDYSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDYSyncTests-Info.plist"; sourceTree = "<group>"; };
 		EAFEA1F118F3C32000B7B790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAFEA1F318F3C32000B7B790 /* CDYSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYSyncTests.m; sourceTree = "<group>"; };
+		EAFEA1FE18F3C41200B7B790 /* CDYSync.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CDYSync.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,8 @@
 		EAFEA1C218F3C32000B7B790 = {
 			isa = PBXGroup;
 			children = (
+				EAFEA1FE18F3C41200B7B790 /* CDYSync.podspec */,
+				EAFEA1FD18F3C3F100B7B790 /* Core */,
 				EAFEA1D418F3C32000B7B790 /* CDYSync */,
 				EAFEA1ED18F3C32000B7B790 /* CDYSyncTests */,
 				EAFEA1CD18F3C32000B7B790 /* Frameworks */,
@@ -142,6 +145,13 @@
 				EAFEA1F018F3C32000B7B790 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFEA1FD18F3C3F100B7B790 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
