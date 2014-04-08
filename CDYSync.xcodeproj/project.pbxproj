@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAFEA1CF18F3C32000B7B790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1CE18F3C32000B7B790 /* Foundation.framework */; };
+		EAFEA1D118F3C32000B7B790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1D018F3C32000B7B790 /* CoreGraphics.framework */; };
+		EAFEA1D318F3C32000B7B790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1D218F3C32000B7B790 /* UIKit.framework */; };
+		EAFEA1D918F3C32000B7B790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFEA1D718F3C32000B7B790 /* InfoPlist.strings */; };
+		EAFEA1DB18F3C32000B7B790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFEA1DA18F3C32000B7B790 /* main.m */; };
+		EAFEA1DF18F3C32000B7B790 /* CDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFEA1DE18F3C32000B7B790 /* CDYAppDelegate.m */; };
+		EAFEA1E118F3C32000B7B790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFEA1E018F3C32000B7B790 /* Images.xcassets */; };
+		EAFEA1E818F3C32000B7B790 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1E718F3C32000B7B790 /* XCTest.framework */; };
+		EAFEA1E918F3C32000B7B790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1CE18F3C32000B7B790 /* Foundation.framework */; };
+		EAFEA1EA18F3C32000B7B790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1D218F3C32000B7B790 /* UIKit.framework */; };
+		EAFEA1F218F3C32000B7B790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFEA1F018F3C32000B7B790 /* InfoPlist.strings */; };
+		EAFEA1F418F3C32000B7B790 /* CDYSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFEA1F318F3C32000B7B790 /* CDYSyncTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAFEA1EB18F3C32000B7B790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFEA1C318F3C32000B7B790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFEA1CA18F3C32000B7B790;
+			remoteInfo = CDYSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAFEA1CB18F3C32000B7B790 /* CDYSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDYSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFEA1CE18F3C32000B7B790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAFEA1D018F3C32000B7B790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAFEA1D218F3C32000B7B790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAFEA1D618F3C32000B7B790 /* CDYSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDYSync-Info.plist"; sourceTree = "<group>"; };
+		EAFEA1D818F3C32000B7B790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFEA1DA18F3C32000B7B790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAFEA1DC18F3C32000B7B790 /* CDYSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDYSync-Prefix.pch"; sourceTree = "<group>"; };
+		EAFEA1DD18F3C32000B7B790 /* CDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDYAppDelegate.h; sourceTree = "<group>"; };
+		EAFEA1DE18F3C32000B7B790 /* CDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYAppDelegate.m; sourceTree = "<group>"; };
+		EAFEA1E018F3C32000B7B790 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAFEA1E618F3C32000B7B790 /* CDYSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDYSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFEA1E718F3C32000B7B790 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAFEA1EF18F3C32000B7B790 /* CDYSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDYSyncTests-Info.plist"; sourceTree = "<group>"; };
+		EAFEA1F118F3C32000B7B790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFEA1F318F3C32000B7B790 /* CDYSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYSyncTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFEA1C818F3C32000B7B790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEA1D118F3C32000B7B790 /* CoreGraphics.framework in Frameworks */,
+				EAFEA1D318F3C32000B7B790 /* UIKit.framework in Frameworks */,
+				EAFEA1CF18F3C32000B7B790 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFEA1E318F3C32000B7B790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEA1E818F3C32000B7B790 /* XCTest.framework in Frameworks */,
+				EAFEA1EA18F3C32000B7B790 /* UIKit.framework in Frameworks */,
+				EAFEA1E918F3C32000B7B790 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFEA1C218F3C32000B7B790 = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1D418F3C32000B7B790 /* CDYSync */,
+				EAFEA1ED18F3C32000B7B790 /* CDYSyncTests */,
+				EAFEA1CD18F3C32000B7B790 /* Frameworks */,
+				EAFEA1CC18F3C32000B7B790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFEA1CC18F3C32000B7B790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1CB18F3C32000B7B790 /* CDYSync.app */,
+				EAFEA1E618F3C32000B7B790 /* CDYSyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFEA1CD18F3C32000B7B790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1CE18F3C32000B7B790 /* Foundation.framework */,
+				EAFEA1D018F3C32000B7B790 /* CoreGraphics.framework */,
+				EAFEA1D218F3C32000B7B790 /* UIKit.framework */,
+				EAFEA1E718F3C32000B7B790 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFEA1D418F3C32000B7B790 /* CDYSync */ = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1DD18F3C32000B7B790 /* CDYAppDelegate.h */,
+				EAFEA1DE18F3C32000B7B790 /* CDYAppDelegate.m */,
+				EAFEA1E018F3C32000B7B790 /* Images.xcassets */,
+				EAFEA1D518F3C32000B7B790 /* Supporting Files */,
+			);
+			path = CDYSync;
+			sourceTree = "<group>";
+		};
+		EAFEA1D518F3C32000B7B790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1D618F3C32000B7B790 /* CDYSync-Info.plist */,
+				EAFEA1D718F3C32000B7B790 /* InfoPlist.strings */,
+				EAFEA1DA18F3C32000B7B790 /* main.m */,
+				EAFEA1DC18F3C32000B7B790 /* CDYSync-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFEA1ED18F3C32000B7B790 /* CDYSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1F318F3C32000B7B790 /* CDYSyncTests.m */,
+				EAFEA1EE18F3C32000B7B790 /* Supporting Files */,
+			);
+			path = CDYSyncTests;
+			sourceTree = "<group>";
+		};
+		EAFEA1EE18F3C32000B7B790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFEA1EF18F3C32000B7B790 /* CDYSyncTests-Info.plist */,
+				EAFEA1F018F3C32000B7B790 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFEA1CA18F3C32000B7B790 /* CDYSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFEA1F718F3C32000B7B790 /* Build configuration list for PBXNativeTarget "CDYSync" */;
+			buildPhases = (
+				EAFEA1C718F3C32000B7B790 /* Sources */,
+				EAFEA1C818F3C32000B7B790 /* Frameworks */,
+				EAFEA1C918F3C32000B7B790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDYSync;
+			productName = CDYSync;
+			productReference = EAFEA1CB18F3C32000B7B790 /* CDYSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFEA1E518F3C32000B7B790 /* CDYSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFEA1FA18F3C32000B7B790 /* Build configuration list for PBXNativeTarget "CDYSyncTests" */;
+			buildPhases = (
+				EAFEA1E218F3C32000B7B790 /* Sources */,
+				EAFEA1E318F3C32000B7B790 /* Frameworks */,
+				EAFEA1E418F3C32000B7B790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFEA1EC18F3C32000B7B790 /* PBXTargetDependency */,
+			);
+			name = CDYSyncTests;
+			productName = CDYSyncTests;
+			productReference = EAFEA1E618F3C32000B7B790 /* CDYSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFEA1C318F3C32000B7B790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Coodly OÜ";
+				TargetAttributes = {
+					EAFEA1E518F3C32000B7B790 = {
+						TestTargetID = EAFEA1CA18F3C32000B7B790;
+					};
+				};
+			};
+			buildConfigurationList = EAFEA1C618F3C32000B7B790 /* Build configuration list for PBXProject "CDYSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAFEA1C218F3C32000B7B790;
+			productRefGroup = EAFEA1CC18F3C32000B7B790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFEA1CA18F3C32000B7B790 /* CDYSync */,
+				EAFEA1E518F3C32000B7B790 /* CDYSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFEA1C918F3C32000B7B790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEA1D918F3C32000B7B790 /* InfoPlist.strings in Resources */,
+				EAFEA1E118F3C32000B7B790 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFEA1E418F3C32000B7B790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEA1F218F3C32000B7B790 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFEA1C718F3C32000B7B790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEA1DB18F3C32000B7B790 /* main.m in Sources */,
+				EAFEA1DF18F3C32000B7B790 /* CDYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFEA1E218F3C32000B7B790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEA1F418F3C32000B7B790 /* CDYSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAFEA1EC18F3C32000B7B790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFEA1CA18F3C32000B7B790 /* CDYSync */;
+			targetProxy = EAFEA1EB18F3C32000B7B790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAFEA1D718F3C32000B7B790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFEA1D818F3C32000B7B790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAFEA1F018F3C32000B7B790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFEA1F118F3C32000B7B790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFEA1F518F3C32000B7B790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAFEA1F618F3C32000B7B790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFEA1F818F3C32000B7B790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYSync/CDYSync-Prefix.pch";
+				INFOPLIST_FILE = "CDYSync/CDYSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAFEA1F918F3C32000B7B790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYSync/CDYSync-Prefix.pch";
+				INFOPLIST_FILE = "CDYSync/CDYSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAFEA1FB18F3C32000B7B790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CDYSync.app/CDYSync";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYSync/CDYSync-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CDYSyncTests/CDYSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAFEA1FC18F3C32000B7B790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CDYSync.app/CDYSync";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYSync/CDYSync-Prefix.pch";
+				INFOPLIST_FILE = "CDYSyncTests/CDYSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFEA1C618F3C32000B7B790 /* Build configuration list for PBXProject "CDYSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFEA1F518F3C32000B7B790 /* Debug */,
+				EAFEA1F618F3C32000B7B790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFEA1F718F3C32000B7B790 /* Build configuration list for PBXNativeTarget "CDYSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFEA1F818F3C32000B7B790 /* Debug */,
+				EAFEA1F918F3C32000B7B790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAFEA1FA18F3C32000B7B790 /* Build configuration list for PBXNativeTarget "CDYSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFEA1FB18F3C32000B7B790 /* Debug */,
+				EAFEA1FC18F3C32000B7B790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAFEA1C318F3C32000B7B790 /* Project object */;
+}
