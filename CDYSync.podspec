@@ -12,4 +12,20 @@ Pod::Spec.new do |spec|
     ss.platform = :ios, '7.0'
     ss.source_files = 'Core/*.{h,m}'
   end
+  
+  spec.subspec 'Source' do |s|
+    spec.subspec 'CoreData' do |ss|
+      ss.platform = :ios, '7.0'
+      ss.source_files = 'Source/CoreData/*.{h,m}'
+      ss.framework = 'CoreData'
+    end
+  end
+  
+  spec.subspec 'Destination' do |s|
+    spec.subspec 'Azure' do |ss|
+      ss.platform = :ios, '7.0'
+      ss.source_files = 'Destination/Azure/*.{h,m}'
+      ss.dependency 'AzureSDK-iOS'
+    end
+  end
 end

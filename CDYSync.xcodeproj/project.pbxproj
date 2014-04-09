@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA6E304218F5163E00FAB1F4 /* CDYSync.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6E304118F5163E00FAB1F4 /* CDYSync.m */; };
+		EA6E304518F5165000FAB1F4 /* CDYAzureDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6E304418F5165000FAB1F4 /* CDYAzureDestination.m */; };
+		EA6E304818F5165E00FAB1F4 /* CDYCoreDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6E304718F5165E00FAB1F4 /* CDYCoreDataSource.m */; };
 		EAFEA1CF18F3C32000B7B790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1CE18F3C32000B7B790 /* Foundation.framework */; };
 		EAFEA1D118F3C32000B7B790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1D018F3C32000B7B790 /* CoreGraphics.framework */; };
 		EAFEA1D318F3C32000B7B790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFEA1D218F3C32000B7B790 /* UIKit.framework */; };
@@ -32,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA6E304018F5163E00FAB1F4 /* CDYSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYSync.h; sourceTree = "<group>"; };
+		EA6E304118F5163E00FAB1F4 /* CDYSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYSync.m; sourceTree = "<group>"; };
+		EA6E304318F5165000FAB1F4 /* CDYAzureDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYAzureDestination.h; sourceTree = "<group>"; };
+		EA6E304418F5165000FAB1F4 /* CDYAzureDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYAzureDestination.m; sourceTree = "<group>"; };
+		EA6E304618F5165E00FAB1F4 /* CDYCoreDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYCoreDataSource.h; sourceTree = "<group>"; };
+		EA6E304718F5165E00FAB1F4 /* CDYCoreDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYCoreDataSource.m; sourceTree = "<group>"; };
 		EAFEA1CB18F3C32000B7B790 /* CDYSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDYSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFEA1CE18F3C32000B7B790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAFEA1D018F3C32000B7B790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,15 +84,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA6E303C18F50BFB00FAB1F4 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E303F18F50C3000FAB1F4 /* Azure */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		EA6E303D18F50BFE00FAB1F4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E303E18F50C2A00FAB1F4 /* CoreData */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EA6E303E18F50C2A00FAB1F4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E304618F5165E00FAB1F4 /* CDYCoreDataSource.h */,
+				EA6E304718F5165E00FAB1F4 /* CDYCoreDataSource.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EA6E303F18F50C3000FAB1F4 /* Azure */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E304318F5165000FAB1F4 /* CDYAzureDestination.h */,
+				EA6E304418F5165000FAB1F4 /* CDYAzureDestination.m */,
+			);
+			path = Azure;
+			sourceTree = "<group>";
+		};
 		EAFEA1C218F3C32000B7B790 = {
 			isa = PBXGroup;
 			children = (
 				EAFEA1FE18F3C41200B7B790 /* CDYSync.podspec */,
-				EAFEA1FD18F3C3F100B7B790 /* Core */,
 				EAFEA1D418F3C32000B7B790 /* CDYSync */,
 				EAFEA1ED18F3C32000B7B790 /* CDYSyncTests */,
+				EAFEA1FD18F3C3F100B7B790 /* Core */,
+				EA6E303C18F50BFB00FAB1F4 /* Destination */,
 				EAFEA1CD18F3C32000B7B790 /* Frameworks */,
 				EAFEA1CC18F3C32000B7B790 /* Products */,
+				EA6E303D18F50BFE00FAB1F4 /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +195,8 @@
 		EAFEA1FD18F3C3F100B7B790 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EA6E304018F5163E00FAB1F4 /* CDYSync.h */,
+				EA6E304118F5163E00FAB1F4 /* CDYSync.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -250,6 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6E304218F5163E00FAB1F4 /* CDYSync.m in Sources */,
+				EA6E304818F5165E00FAB1F4 /* CDYCoreDataSource.m in Sources */,
+				EA6E304518F5165000FAB1F4 /* CDYAzureDestination.m in Sources */,
 				EAFEA1DB18F3C32000B7B790 /* main.m in Sources */,
 				EAFEA1DF18F3C32000B7B790 /* CDYAppDelegate.m in Sources */,
 			);
@@ -448,6 +498,7 @@
 				EAFEA1F918F3C32000B7B790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAFEA1FA18F3C32000B7B790 /* Build configuration list for PBXNativeTarget "CDYSyncTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +507,7 @@
 				EAFEA1FC18F3C32000B7B790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
